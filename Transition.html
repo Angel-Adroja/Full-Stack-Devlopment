@@ -1,0 +1,84 @@
+<!-- <html>
+    <head>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                transition: width 5s ease-in 1s,height 6s ease-out 0.5s ,background-color 7s ease-in-out 2s ;}
+            div:hover{
+                width:200px;
+                height:200px;
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html> -->
+<!-- create a css program that demo the use of multiple transition on a single element when the user hover over the deep 
+ it should increase in size,change background color ,rotate 360 degree and become circular all with smooth timing,delay and 
+ different transition duration -->
+ <!-- <head>
+    <style>
+       div{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transition-property:width,height,background-color,border-radius,transform;
+        transition-duration: 3s,4s,6s,6s;
+        transition-delay: 1s;
+        transition-timing-function: ease-in-out;
+       }
+       div:hover{
+        width: 250px;
+        height: 250px;
+        background-color: green;
+        transform: rotate(360deg);
+        border-radius: 50%;
+       }
+    </style>
+ </head>
+ <body>
+    <div></div>
+ </body> -->
+ <!-- when the user intereact with the form element,the input smoothly change and bgcolor,text-color and border style when hover the 
+button should smoothly change and bgcolor,text color,padding and border thickness when hover ,the transition should be visually appearing 
+  and use easing for smooth motion -->
+  <html>
+  <head>
+    <style>
+        .l1{
+            border: 2px solid green;
+            padding: 10px;
+            transition-property: background-color,color,border;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+        }
+        .l1:hover{
+            background-color: rgb(79, 143, 79);
+            color: rgb(44, 44, 163);
+            border:2px dotted blue;
+        }
+        .b1{
+             background-color: rgb(224, 61, 162);
+             color: white;
+             padding: 20px;
+             border: 3px double green;
+             transition: all 2s ;
+        }
+        .b1:hover{
+              background-color: white;
+              color: black;
+              padding: 30px;
+              border: 6px double green;
+        }
+    </style>
+  </head>
+  <body>
+    Username: <input type="text" class="l1"><br><br>
+    <input type="button" class="b1" value="Click Me"><br>
+
+
+  </body>
