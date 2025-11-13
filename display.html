@@ -1,0 +1,50 @@
+<head>
+    <style>
+        .box {
+            background-color: yellow;
+            border: 2px solid green;
+            text-align: center;
+            height: 30px;
+        }
+
+        .inline div {
+            display: inline;
+            background-color: red;
+        }
+
+        .block div {
+            display: inline-block;
+            background-color: pink;
+            height: 30px;
+            width: 30px;
+        }
+        .block span{
+            display: block;
+            background-color: aqua ;
+        }
+        .none p {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="inline box">
+        <div>inline 1</div>
+        <div>inline 2</div>
+        <div>inline 3</div>
+    </div>
+    <div class="block box">
+        <span>block 1</span>
+        <span>block 2</span>
+    </div>
+    <div class=" block box">
+        <div>Box 1 </div>
+        <div>Box 2</div>
+    </div>
+    <div class="none box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit velit commodi sed quae harum.
+            Ipsam eum magnam laboriosam dicta nam quaerat, exercitationem natus placeat qui expedita consectetur,
+            nostrum reiciendis.</p>
+    </div>
+</body>

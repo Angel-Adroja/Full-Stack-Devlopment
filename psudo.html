@@ -1,0 +1,109 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a:link{color: red;}
+        a:visited{color: green;}
+        a:hover{color: blue;font-size: 50px;}
+        a:active{color: yellow;}
+        </style>
+</head>
+<body>
+    <a href="https://www.google.com"target="_blank">Click Me</a>
+</body>
+</html> -->
+
+<!-- add one <div> tag of 100px width and 100px height with color purple . write css code to change its color to red while you hover over at change -->
+<!-- <html>
+        <head>
+            <style>
+                div{height: 100px; width: 100px; background-color: purple;}
+                div:hover{background-color: red; height: 500px;width: 500px;}
+            </style>
+        </head>
+        <body>
+            <div>hello</div>
+        </body>
+    </html> -->
+
+<!-- design a web page that includes 1) a button that changes its color when it hover and when clicked 
+     2)the text input field that changes background color when its bgcolor 
+     3)a check box that changes the color of its label and make the label when checked
+    4)and unordered list where the second list item is style differently with red text color and bolo font and 
+    one of the list item has a class "special" all other list item have and green bg and italic font size  -->
+<!-- <html>
+
+<head>
+    <style>
+        button {
+            background-color: blue;
+        }
+
+        button:hover {
+            background-color: navy;
+        }
+
+        button:active {
+            background-color: yellow;
+        }
+
+        input:focus {
+            background-color: green;
+            border: 2px solid blue;
+        }
+
+        input:checked+label {
+            color: green;
+            font-weight: bold;
+        }
+
+        ul li:nth-child(2) {
+            color: red;
+            font-weight: bold;
+        }
+
+        ul li:not(.special) {
+            font-style: italic;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <button>Click me</button>
+    <label for="name">Name: </label>
+    <input type="text" id="name"></br>
+    <p>
+        <input type="checkbox" id="agree">
+        <label for="agree">i agree all terms</label>
+    </p>
+    <ul>
+        <li>
+            abc
+        </li>
+        <li>pqr</li>
+        <li class="special">def</li>
+        <li>xyz</li>
+    </ul>
+</body>
+</html> -->
+
+<head>
+    <style>
+        p::first-line{color: red; font-weight: bold;}
+        p::first-letter{font-size: 50px;color: blue;text-decoration: underline;}
+        p::before{content: "Note:";color: green;}
+        p::after{content: "Byee";}
+        ul li::marker{color: purple;font-size: 40px;}
+        ::selection{background-color: yellow;color: red;}
+    </style>
+</head>
+<body>
+    <h2>hello</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ut ratione in non pariatur, ab quis! Doloribus facilis quae, fuga suscipit debitis cum tempora quam similique ut voluptatibus tenetur at?</p>
+    <ul>
+        <li>ABC</li>
+        <li>PQR</li>
+        <li>XYZ</li>
+    </ul>
+</body>
